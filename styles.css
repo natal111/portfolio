@@ -296,6 +296,7 @@ footer {
 
 footer p {
   line-height: 50px;
+ padding-right: 50px;
 }
 
 @media (max-width: 720px) {
