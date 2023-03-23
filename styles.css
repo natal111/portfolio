@@ -248,6 +248,11 @@ h2 {
 .project-tile {
   height: auto;
   background-color: var(--background-color-lighter);
+transition: 1s;
+}
+
+.project-tile:hover {
+  border: 2px solid var(--font-color);
 }
 
 .project-miniature {
@@ -263,11 +268,6 @@ h3 {
   line-height: 50px;
   background-color: var(--background-color-lighter);
   box-shadow: inset 0 0 20px 5px var(--background-color-darker-shadow);
-}
-h3:hover {
-  border-top: 2px solid var(--font-color);
-  font-weight: 600;
-  line-height: 48px;
 }
 
 #contacts h2 {
