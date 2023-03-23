@@ -294,6 +294,10 @@ footer {
   vertical-align: middle;
 }
 
+footer p {
+  line-height: 50px;
+}
+
 @media (max-width: 720px) {
   #carousel {
     transform: scaleY(0.5);
