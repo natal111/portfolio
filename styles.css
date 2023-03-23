@@ -335,4 +335,8 @@ font-size: 6em;
   h2 {
 font-size: 3em;
   }
+ #navbar a,
+  #contacts a {
+    padding: 0 20px;
+  }
 }
